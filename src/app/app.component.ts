@@ -7,6 +7,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { MondPage } from "../pages/mond/mond";
+import { SonnePage } from "../pages/sonne/sonne";
 import { SternenkartePage } from "../pages/sternenkarte/sternenkarte";
 
 @Component({
@@ -27,7 +28,8 @@ export class MyApp {
       { title: 'Beobachtung starten', component: HomePage },
       { title: 'Himmel aktuell', component: HimmelAktuellPage },
       { title: 'Interaktive Sternenkarte', component: SternenkartePage },
-      { title: 'Mond und Sonne aktuell', component: MondPage }
+      { title: 'Mond und Sonne aktuell', component: MondPage },
+      { title: 'Sonnenbeobachtung', component: SonnePage }
     ];
 
   }
