@@ -7,35 +7,37 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-<ion-card>
+<ion-content padding class="nachtmodus">
+<ion-card class="nachtmodus">
 <ion-card-content>
   <ion-card-title>Teleskopsteuerung einschalten</ion-card-title>
 <ol>
-	<li>Datum und Uhrzeit einstellen</li>
-	<li>Einstellung Sommerzeit ein/aus pr&uuml;fen</li>
 	<li>Zeitzone best&auml;tigen</li>
+	<li>Datum und Uhrzeit einstellen</li>
+	<li>Einstellung Sommerzeit ein/aus pr&uuml;fen (Daylight Savings YES wenn Sommerzeit gilt)</li>
+	<li>Die Frage ob eine neue Ausrichtung begonnen werden soll mit NO beantworten</li>
 </ol>
 </ion-card-content>
 </ion-card>
-<ion-card>
+<ion-card class="nachtmodus">
 <ion-card-content>
   <ion-card-title>Wie stelle ich jetzt das gew&uuml;nschte Objekt ein?</ion-card-title>
 <ol>
-	<li>Objekt &uuml;ber den Katalog der Steuerung ausw&auml;hlen
+	<li>Objekt &uuml;ber den Katalog der Steuerung ausw&auml;hlen und 2mal mit <ion-chip><ion-label>ENTER</ion-label></ion-chip> best&auml;tigen
 		<ul>
-			<li>Planten oder Mond &uuml;ber "Objects"</li>
-			<li>Sternhaufen, Nebel oder Galaxien &uuml;ber "Messier Object" unter Angabe der entsprechende Nummer (die kann man z.B. dem Poster im Observatorium oder diversen Karten entnehmen)</li>
-			<li>bestimmte Sterne....</li>
+			<li>Schnellzugriff auf Planeten oder Mond &uuml;ber <ion-chip><ion-label>PLANET</ion-label></ion-chip></li>
+			<li>Sternhaufen, Nebel oder Galaxien &uuml;ber <ion-chip><ion-label>M</ion-label></ion-chip> , <ion-chip><ion-label>NGC</ion-label></ion-chip> , <ion-chip><ion-label>IC</ion-label></ion-chip> unter Angabe der entsprechende Nummer aus den 3 gro&szlig;en astronomischen Katalogen ausw&auml;hlen
+			 (die kann man z.B. dem Poster im Observatorium oder diversen Karten entnehmen, die Plejaden sind z.B. M45)</li>
+			<li>bestimmte Sterne oder alle anderen Objekte k&ouml;nnen &uuml;ber <ion-chip><ion-label>OBJECT</ion-label></ion-chip> ausgew&auml;hlt werden....</li>
 		</ul>
 	</li>
 	<li>Wenn das Objekt nach dem Anfahren durch die Steuerung noch nicht im Bild ist, muss dies manuell korrigiert werden
 		<ul>
 			<li>mit den Pfeiltasten erfolgt die manuelle Steuerung</li>
-			<li>die Geschwindigkeit kann &uuml;ber "Rate" und danach eine der Ziffern 1-9 eingestellt werden.</li>
-			<li>Tipp: wenn das Objekt mit blo&szlig;em Auge sichtbar ist, versuche mit einem Auge durch das Sucherfernrohr zu gucken w&auml;hrend Du mit dem zweiten Auge direkt das Objekt ansiehst. 
-			Dadurch legt sich das Fadenkreuz auch auf das freie Auge und hilft dir den Weg in den Sucher zu finden.</li>
+			<li>die Geschwindigkeit kann &uuml;ber <ion-chip><ion-label>RATE</ion-label></ion-chip> und die Ziffern 1-9 eingestellt werden.</li>
 		</ul>
+			<ion-note><ion-icon name="bulb"></ion-icon> <b>Tipp:</b> wenn das Objekt mit blo&szlig;em Auge sichtbar ist, versuche mit einem Auge durch das Sucherfernrohr zu gucken w&auml;hrend Du mit dem zweiten Auge direkt das Objekt ansiehst. 
+			Dadurch legt sich das Fadenkreuz auch auf das freie Auge und hilft dir den Weg in den Sucher zu finden.</ion-note>
 	</li>
 	<li>Objekt mittig im Sucher? Dann das Okular w&auml;hlen...
 		<ul>
@@ -46,10 +48,10 @@
 </ol>
 </ion-card-content>
 </ion-card>
-<ion-card>
+<ion-card class="nachtmodus">
 <ion-card-content>
   <ion-card-title>Beobachtung beenden</ion-card-title>
-Um die Beobachtung zu beenden, wird das Teleskop &uuml;ber "Utility -> Park Scope -> Home Position" wieder in die Ausgangsposition gebracht. Danach kann der Strom abgeschaltet werden
+Um die Beobachtung zu beenden, wird das Teleskop &uuml;ber <ion-chip><ion-label>UTILITY</ion-label></ion-chip> <ion-badge color="light">-> Park Scope</ion-badge> <ion-badge color="light"> -> Home Position</ion-badge> wieder in die Ausgangsposition gebracht. Danach kann der Strom abgeschaltet werden.
 </ion-card-content>
 </ion-card>
 

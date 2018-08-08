@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
 @Component({
-  selector: 'page-home',
+  selector: 'page-mond',
   templateUrl: 'mond.html'
 })
 export class MondPage {

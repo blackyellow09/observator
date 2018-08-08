@@ -7,28 +7,45 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content padding class="sonne">
 <ion-card color="danger">
 <ion-card-content >
   <ion-card-title>
 <ion-icon name="warning" item-start></ion-icon>
   Nie ohne Filter in die Sonne gucken!!!
-<ion-icon name="warning" item-end></ion-icon>
 </ion-card-title>
 </ion-card-content>
 </ion-card>
-  <ion-card>
+  <ion-card class="sonne">
 <ion-card-content>
   <ion-card-title>Was muss ich bei der Sonnenbeobachtung beachten?</ion-card-title>
 <ul>
-	<li>Da wir keinen Filter f&uuml;r das Sucherfernrohr haben, darf dieses nicht verwendet werden! Deckel zu lassen!</li>
+	<li>Da wir keinen Filter f&uuml;r das Sucherfernrohr haben, darf dieses nicht verwendet werden! <b>Deckel zu lassen!</b></li>
 	<li>Setze als erstes den Sonnenfilter statt dem Teleskopdeckel ein. Am besten vorher pr&uuml;fen, dass dieser kein Loch hat!</li>
 	<li>Die Sonne kann nicht &uuml;ber die Steuerung angepeilt werden, dies muss also manuell passieren. 
 	Man kann dabei ohne die motorisierte Steuerung starten indem man die Feststellhebel l&ouml;st und grob zur Sonne peilt. 
 	Ist man in der N&auml;he, kann die Steuerung auch wieder eingeschaltet werden, sodass die Feineinstellung motorisiert erfolgen kann. 
-	Damit die Sonne in der richtigen Geschwindigkeit nachgef&uuml;hrt wird, kann diese unter "XYZ" eingestellt werden.<br />
-	Beachte: Navigiert man manuell, ohne Unterst&uuml;tzung der Steuerung, so ist anschliessend die exakte Ausrichtung f&uuml;r die Orientierung am Nachthimmel nicht mehr gegeben.</li>
+	Damit die Sonne in der richtigen Geschwindigkeit nachgef&uuml;hrt wird, kann diese unter <ion-chip><ion-label>SETUP</ion-label></ion-chip> <ion-badge color="light">-> Set Tracking</ion-badge> <ion-badge color="light">-> Solar Rate</ion-badge> eingestellt werden.</li>
 </ul>
+	<ion-icon name="warning"></ion-icon> <b>Beachte:</b> Navigiert man manuell, ohne Unterst&uuml;tzung der Steuerung, so ist anschlie&szlig;end die exakte Ausrichtung f&uuml;r die Orientierung am Nachthimmel nicht mehr gegeben.
+</ion-card-content>
+</ion-card>
+<ion-card class="sonne">
+<ion-card-content>
+
+<!--- Ein Service von www.Der-Mond.org 
+		Erfahren Sie auf Der-Mond.org alles wissenswertes über unseren Erdtrabanten! Vom Basiswissen über Ephemeridenberechnung, aktuelle Mondphasen und sogar einer interaktiven Mondkarte ist für jeden etwas dabei! -->
+ 
+<!-- Diesen Link nicht entfernen! -->
+ 
+<a href="https://www.der-mond.org/" target=_blank>
+ 	
+<img border=0 src="https://www.der-mond.org/feature/luna.php?version=3&txue=Sonne+aktuell&zeko=1&zefu=1&grmo=0&txph=0&txmoal=0&txmoph=0&txmobe=0&txmophti=0&txmost=0&txmostau=0&txze=0&zezo=1&zeso=1&format=0&schgr=12&faan=1&scro=0&scgr=0&scbl=0&hiro=247&higr=254&hibl=46&grsoho=1&grsohoueber=0&soep=1&txsost=1&txsostau=0&geolagr=7&geolami=18&geolase=0&geola=O&geobrgr=50&geobrmi=47&geobrse=54&geobr=N&lang=de" alt="Das Homepagetool mit der aktuellen Mondphase u.v.m.">
+ 
+<!--- Hinweis nicht enfernen -->
+			
+<br>
+Ein Service von www.Der-Mond.org</a>
 </ion-card-content>
 </ion-card>
 </ion-content>

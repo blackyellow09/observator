@@ -1,3 +1,14 @@
 page-home {
-
+.toolbar-background {
+background: #B40404;
+}
+	ion-content.nachtmodus {
+		background: #222;
+	ion-card.nachtmodus {
+		background: #B40404;
+		.chip-md {
+		background: #D8D8D8;
+		}
+	}
+	}
 }
