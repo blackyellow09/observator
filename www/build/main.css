@@ -25677,3 +25677,63 @@ ion-navbar.toolbar {
   min-height: calc(46px + constant(safe-area-inset-bottom));
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
+
+.toolbar-background {
+  background: #B40404;
+}
+
+ion-content.nachtmodus {
+  background: #222;
+}
+
+ion-content.nachtmodus .item-md {
+  background: #B40404;
+}
+
+page-himmel .toolbar-background {
+  background: #B40404;
+}
+
+page-himmel ion-content.nachtmodus {
+  background: #B40404;
+}
+
+page-home .toolbar-background {
+  background: #B40404;
+}
+
+page-home ion-content.nachtmodus {
+  background: #222;
+}
+
+page-home ion-content.nachtmodus ion-card.nachtmodus {
+  background: #B40404;
+}
+
+page-home ion-content.nachtmodus ion-card.nachtmodus .chip-md {
+  background: #D8D8D8;
+}
+
+page-mond .toolbar-background {
+  background: #B40404;
+}
+
+page-mond ion-content.nachtmodus {
+  background: #222;
+}
+
+page-mond ion-content.nachtmodus ion-card.nachtmodus {
+  background: #B40404;
+}
+
+page-sonne ion-content.sonne {
+  background: #CEECF5;
+}
+
+page-sonne ion-content.sonne ion-card.sonne {
+  background: #F7FE2E;
+}
+
+page-sonne ion-content.sonne ion-card.sonne .chip-md {
+  background: #D8D8D8;
+}
