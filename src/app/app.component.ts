@@ -8,6 +8,7 @@ import { InAppBrowser } from "@ionic-native/in-app-browser";
 import { HomePage } from '../pages/home/home';
 import { MondPage } from "../pages/mond/mond";
 import { SonnePage } from "../pages/sonne/sonne";
+import { PlanetenPage } from "../pages/planeten/planeten";
 
 @Component({
   templateUrl: 'app.html'
@@ -27,7 +28,8 @@ export class MyApp {
       { title: 'Beobachtung starten', component: HomePage, icon: 'eye' },
       { title: 'Himmel aktuell', component: HimmelAktuellPage, icon: 'star' },
       { title: 'Mond aktuell', component: MondPage, icon: 'moon' },
-      { title: 'Sonnenbeobachtung', component: SonnePage, icon: 'sunny' }
+      { title: 'Sonnenbeobachtung', component: SonnePage, icon: 'sunny' },
+      { title: 'Planeten', component: PlanetenPage, icon: 'planet' }
     );
 
   }
@@ -49,6 +51,11 @@ export class MyApp {
   
   openUrl() {
     this.iab.create('https://www.heavens-above.com/skychart2.aspx?lat=50.78&lng=7.3&loc=Unspecified&alt=0&tz=CET',
-    '_self', 'location=yes');
+    '_self', 'location=no');
+  }
+  
+  openHomepage() {
+  this.iab.create('https://www.blackyellow.de',
+    '_self', 'location=no');
   }
 }

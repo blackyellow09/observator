@@ -7,6 +7,7 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { MondPage } from "../pages/mond/mond";
 import { SonnePage } from "../pages/sonne/sonne";
+import { PlanetenPage } from "../pages/planeten/planeten";
 import { InAppBrowser } from "@ionic-native/in-app-browser";
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -18,7 +19,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     MondPage,
     HimmelAktuellPage,
-    SonnePage
+    SonnePage,
+    PlanetenPage
   ],
   imports: [
     BrowserModule,
@@ -30,7 +32,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     MondPage,
     HimmelAktuellPage,
-    SonnePage
+    SonnePage,
+    PlanetenPage
   ],
   providers: [
     StatusBar,
